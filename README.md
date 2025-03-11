@@ -1,6 +1,6 @@
 # Portfolio - Ruan Lobo
 
-Meu portfólio pessoal construído com GitProfile.
+Este é meu site pessoal que apresenta meus projetos, habilidades e informações profissionais. O site foi desenvolvido utilizando o template GitProfile, que é uma ferramenta que cria automaticamente um portfólio bonito e profissional baseado no meu perfil do GitHub.
 
 ## Sobre Mim
 
