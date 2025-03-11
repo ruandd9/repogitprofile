@@ -120,10 +120,24 @@ const CONFIG = {
     }
   ],
   blog: {
-    source: 'dev',
-    username: 'seu-usuario',
-    limit: 5,
+    source: 'dev', 
+    username: 'ruandd9', 
+    limit: 5, 
   },
+  articles: [
+    {
+      title: 'Introdução ao Desenvolvimento Web',
+      description: 'Um guia prático sobre HTML, CSS e JavaScript para iniciantes',
+      date: '2024',
+      url: '', 
+    },
+    {
+      title: 'Boas Práticas em React',
+      description: 'Dicas e truques para melhorar seus projetos React',
+      date: '2024',
+      url: '', 
+    }
+  ],
   googleAnalytics: {
     id: '', // ID do Google Analytics (opcional)
   },
