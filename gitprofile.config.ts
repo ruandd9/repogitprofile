@@ -5,7 +5,7 @@ const CONFIG = {
     username: 'ruandd9', // Seu usuário do GitHub
     location: 'Brasília, Brasil'
   },
-  base: '/',
+  base: '/', // Configuração base para GitHub Pages
   projects: {
     github: {
       display: true,
@@ -16,12 +16,7 @@ const CONFIG = {
         limit: 50,
         exclude: {
           forks: false,
-          projects: [
-            'ruandd9/ruandd9.git.io',
-            'ruandd9/Atividades-java-js-html-css-phyton-sql',
-            'ruandd9/atividade-pratica014',
-            'ruandd9/atividadetds.github.io'
-          ]
+          projects: []
         },
       },
     },
