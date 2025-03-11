@@ -74,16 +74,16 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Análise e Desenvolvimento de Sistemas',
-      position: 'Estudante',
+      company: '...',
+      position: '...',
       from: '2024',
       to: 'Presente',
       companyLink: '',
     },
     {
-      company: 'Desenvolvimento de Sistemas',
-      position: 'Técnico',
-      from: '2023',
+      company: '...',
+      position: '...',
+      from: '2024',
       to: 'Presente',
       companyLink: '',
     }
@@ -112,23 +112,12 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+      title: 'Desenvolvimento de Sistemas Web Modernos',
+      description: 'Artigo sobre as melhores práticas no desenvolvimento de aplicações web usando React, Node.js e outras tecnologias modernas.',
+      url: '', // Adicionar URL quando publicar
+      thumbnail: '', // Adicionar URL da imagem quando publicar
+      date: '2024',
+    }
   ],
   blog: {
     source: 'dev',
@@ -147,7 +136,38 @@ const CONFIG = {
     disableSwitch: false,
     respectPrefersColorScheme: true,
     displayAvatarRing: true,
-    themes: ['light', 'dark'],
+    themes: [
+      'light',
+      'dark',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
+      'synthwave',
+      'retro',
+      'cyberpunk',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'fantasy',
+      'wireframe',
+      'black',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'procyon'
+    ],
   },
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
