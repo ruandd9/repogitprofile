@@ -60,12 +60,18 @@ const CONFIG = {
     'HTML',
     'CSS',
     'JavaScript',
+    'TypeScript',
+    'Bootstrap',
+    'Tailwind',
     'React',
     'Node.js',
     'Python',
     'Java',
     'Git',
-    'SQL'
+    'SQL',
+    'Firebase',
+    'Docker'
+    
   ],
   experiences: [
     {
