@@ -271,7 +271,6 @@ const GithubProjectCard = ({
             setModalDemoUrl('');
           }}
           project={modalProject}
-          demoUrl={modalDemoUrl}
           onVisitDemo={handleVisitDemo}
           onVisitGithub={handleVisitGithub}
         />

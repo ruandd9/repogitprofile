@@ -64,6 +64,13 @@ interface GitHubProjects {
      */
     projects?: Array<string>;
   };
+
+  /**
+   * Demo URLs for projects
+   */
+  demos?: {
+    [key: string]: string;
+  };
 }
 
 interface ExternalProjects {
@@ -351,6 +358,13 @@ interface ThemeConfig {
    * Custom theme
    */
   customTheme?: CustomTheme;
+
+  /**
+   * Dot pattern background
+   */
+  dotPattern?: {
+    enabled: boolean;
+  };
 }
 
 interface Config {

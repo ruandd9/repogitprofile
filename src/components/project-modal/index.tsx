@@ -14,7 +14,6 @@ interface ProjectModalProps {
     forks_count: string;
     language: string;
   };
-  demoUrl: string;
   onVisitDemo: () => void;
   onVisitGithub: () => void;
 }
@@ -23,7 +22,6 @@ const ProjectModal = ({
   isOpen,
   onClose,
   project,
-  demoUrl,
   onVisitDemo,
   onVisitGithub,
 }: ProjectModalProps) => {
