@@ -19,6 +19,15 @@ const CONFIG = {
           projects: []
         },
       },
+      // Configuração de demos para repositórios específicos
+      // Apenas repositórios com demo configurado mostrarão o modal
+      demos: {
+        'fisica4ves': 'https://lovable-library-szbr.onrender.com',
+        'ui-concepts-lab': 'https://ui-concepts-lab.vercel.app',
+        // Adicione mais repositórios deployados aqui:
+        // 'nome-do-repo': 'https://link-do-demo.com',
+        // 'outro-projeto': 'https://outro-projeto.netlify.app',
+      },
     },
     external: {
       header: 'Projetos Externos',

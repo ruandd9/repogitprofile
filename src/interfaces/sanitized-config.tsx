@@ -17,6 +17,9 @@ export interface SanitizedGitHubProjects {
   manual: {
     projects: Array<string>;
   };
+  demos?: {
+    [key: string]: string;
+  };
 }
 
 export interface SanitizedExternalProject {
